@@ -1,0 +1,123 @@
+/** 
+ * CSS for presentation
+ */
+
+#main {
+  color: #232324;
+}
+
+
+.classic {
+  background-color: #BFBFB3;
+}
+
+footer {
+  background-color: #D5D5DD;
+  opacity: 0.8;
+}
+footer .credits {
+  padding: 0 2em;
+  text-align: right;
+}
+
+article section,
+.classic article section {
+  text-align: center;
+  transform-style: preserve-3d;
+  width: 800px;
+  height: 600px;
+  margin-left: -400px;
+  margin-top: -330px;
+  background-color: #F2F2F9;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.classic section.bespoke-after-1 {
+  -webkit-transform: translate3d(830px, 0, 0);
+  -moz-transform: translate3d(830px, 0, 0);
+  -ms-transform: translate3d(830px, 0, 0);
+  -o-transform: translate3d(830px, 0, 0);
+  transform: translate3d(830px, 0, 0);
+  opacity: 0.3;
+}
+
+.classic section.bespoke-before-1 {
+  -webkit-transform: translate3d(-830px, 0, 0);
+  -moz-transform: translate3d(-830px, 0, 0);
+  -ms-transform: translate3d(-830px, 0, 0);
+  -o-transform: translate3d(-830px, 0, 0);
+  transform: translate3d(-830px, 0, 0);
+  opacity: 0.3;
+}
+
+h1 {
+  font-size: 10em;
+  color: #232324;
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  height: auto;
+  width: auto;
+  -webkit-transform: none;
+  -moz-transform: none;
+  transform: none;
+}
+
+h2 {
+  position: relative;
+  font-size: 6em;
+  color: #232324;
+  margin-bottom: 1em;
+}
+
+h3 {
+  text-align: center;
+  font-family: Gill Sans, Segoe UI Light, Helvetica, Arial, sans-serif;
+  font-size: 3em;
+  font-weight: 200;
+  color: #232324;
+  opacity: 0.9;
+  margin-bottom: 1em;
+}
+
+
+article section img {
+  margin-bottom: 2em;
+}
+
+.bandit {
+  background-color: #F2F2F9;
+  padding: .5em 0;
+}
+
+section ul {
+  list-style: none;
+  font-size: 2em;
+}
+
+.bespoke-bullet {
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.bespoke-bullet-inactive {
+  opacity: 0.2;
+}
+
+.bespoke-bullet-active {
+  opacity: 1;
+}
+
+.full-link {
+  height: 500px;
+  width: 700px;
+  display: block;
+}
