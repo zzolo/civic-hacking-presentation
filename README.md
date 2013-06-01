@@ -1,6 +1,6 @@
-# Data Visualization in the Newsroom
+# Civic Hacking Presentation
 
-A simple presentation about using data visualization in the newsroom and helpful tools.
+A simple presentation about why I civic hack.
 
 ## Install
 
